@@ -1,0 +1,23 @@
+<extension type="plugin" group="system" method="upgrade" version="3.0">
+    <name>PLG_SYSTEM_CUSTOMSCHEMA</name>
+    <author>BB</author>
+    <creationDate>2024-07-31</creationDate>
+    <copyright>(C) 2024 BSW</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <version>3.0.0</version>
+    <description>Add custom schema metadata to head or footer area</description>
+    <files>
+        <filename plugin="customschema">customschema.php</filename>
+        <folder>forms</folder>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="schema_position" type="list" default="head" label="Schema Position" description="Choose where the schema script should be injected.">
+                    <option value="head">Head tag (&lt;head&gt;)</option>
+                    <option value="footer">Footer (before &lt;/body&gt;)</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>

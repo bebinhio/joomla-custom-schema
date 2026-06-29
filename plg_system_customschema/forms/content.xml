@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="attribs">
+        <fieldset name="customschema" label="Custom Schema">
+            <field name="custom_schema" type="textarea" label="Custom Schema JSON" description="Enter the custom schema JSON for this article without script tag." filter="raw" rows="10" cols="50" />
+        </fieldset>
+    </fields>
+</form>

@@ -1,0 +1,16 @@
+# Built application files
+*.zip
+
+# Local text files and documentation
+analiza_techniczna.txt
+podsumowanie_komercyjne.txt
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
